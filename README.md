@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# Search Book Tool
+## About App:
+The App uses OpenLibrary API to display information from the book repository. It uses REST APIs to link Open Library data in JSON format. 
+
+## Visit site -> 
+https://search-books-tool.herokuapp.com/
+#
+#
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
