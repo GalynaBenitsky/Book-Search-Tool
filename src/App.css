@@ -1,0 +1,133 @@
+body {
+  background-image: url(./images/background.jpeg);
+  background-position: center;
+  height: 100vh;
+  background-size: cover;
+  width: 100%;
+}
+.App {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
+h1 {
+  padding-top: 2em;
+  align-items: center;
+  font-size: 5rem;
+  color: #435560;
+  margin-bottom: 5rem;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04),
+    3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04);
+}
+.book-search {
+  display: block;
+  justify-content: left;
+  align-content: center;
+  margin-top: 2rem;
+  width: inherit;
+}
+
+.book-input {
+  padding-left: 16px;
+  width: 80%;
+  height: 50px;
+  margin-right: 0.5rem;
+  border-radius: 4px;
+  border: none;
+  background: #fcfcfd;
+  color: #435560;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.book-input::placeholder {
+  color: rgb(148, 144, 144);
+}
+a {
+  color: white;
+}
+a:hover {
+  color: #282829;
+  text-decoration: none;
+}
+p.subtitle {
+  text-align: left;
+  margin-left: 3.7rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.card {
+  font-family: "Raleway", sans-serif;
+  color: #435560;
+  margin-right: 0.2rem;
+  width: 18rem;
+  margin-bottom: 0.2rem;
+  font-family: "Raleway", sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-title {
+  font-family: "Raleway", sans-serif;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  width: 90%;
+  margin-left: 3rem;
+}
+button.btn {
+  background-color: #414f58;
+  color: #fcfcfd;
+  height: 50px;
+}
+button.btn:hover {
+  background-color: #e0e274;
+  color: #282829;
+}
+.spinner {
+  margin-top: 3rem;
+}
+@media screen and (max-width: 768px) {
+  .grid-container {
+    width: 100%;
+    grid-template-columns: auto;
+  }
+  .card {
+    width: 100%;
+  }
+  .book-input {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  p.subtitle {
+    text-align: left;
+    margin-left: 3.7rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 1170px) and (min-width: 600px) {
+  .grid-container {
+    width: 100%;
+    grid-template-columns: auto auto auto;
+  }
+  .card {
+    width: 100%;
+  }
+  .book-input {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  p.subtitle {
+    text-align: left;
+    margin-left: 3.7rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+}
