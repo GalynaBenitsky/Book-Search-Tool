@@ -56,7 +56,6 @@ p.subtitle {
   margin-top: 1rem;
 }
 .card {
-  font-family: "Raleway", sans-serif;
   color: #435560;
   margin-right: 0.2rem;
   width: 18rem;
@@ -64,7 +63,8 @@ p.subtitle {
   font-family: "Raleway", sans-serif;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.card-title {
+.card-title,
+.card {
   font-family: "Raleway", sans-serif;
 }
 .grid-container {
