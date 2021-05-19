@@ -2,9 +2,10 @@
 ## About App:
 The App uses OpenLibrary API to display information from the book repository. It uses REST APIs to link Open Library data in JSON format. 
 
-## Visit site -> https://search-book-tool.herokuapp.com/
-##
-##
+## Visit site -> 
+https://search-book-tool.herokuapp.com/
+#
+#
 
 ## Getting Started with Create React App
 
